@@ -1,0 +1,13 @@
+{
+  "generator": "vcfqc.simulate.simulate_vcf(n_samples=40, n_sites=1500, tstv=2.1, error_fraction=0.15, excess_het_fraction=0.02, excess_het_rate=0.9, n_contaminated=1, n_low_coverage=1, contamination_het_rate=0.25, seed=2026)",
+  "n_real_sites": 1245,
+  "n_random_error_sites": 225,
+  "n_excess_het_sites": 30,
+  "contaminated_samples": [
+    "S025"
+  ],
+  "low_coverage_samples": [
+    "S023"
+  ],
+  "note": "Sites carrying the INFO flag ARTEFACT are planted artefacts; vcfqc never reads this flag."
+}

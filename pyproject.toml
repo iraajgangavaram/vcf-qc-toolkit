@@ -4,14 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "vcf-qc-toolkit"
-version = "0.1.0"
-description = "Dependency-free quality-control summaries for VCF files: Ti/Tv, variant types, allele frequencies, per-sample genotypes"
+version = "0.2.0"
+description = "Dependency-free VCF quality control (Ti/Tv, exact Hardy-Weinberg test, sample outlier detection) validated on simulated data with planted artefacts"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = []
 
 [project.optional-dependencies]
 test = ["pytest"]
+figures = ["matplotlib"]
 
 [project.scripts]
 vcfqc = "vcfqc.cli:main"
