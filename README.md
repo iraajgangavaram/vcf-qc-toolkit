@@ -268,3 +268,7 @@ docs/results/     generated validation tables (CSV) and summary
 ## Author
 
 Iraaj Gangavaram
+
+## Licence
+
+MIT. See [LICENSE](LICENSE).

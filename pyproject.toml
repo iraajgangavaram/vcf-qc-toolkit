@@ -8,6 +8,7 @@ version = "0.2.0"
 description = "Dependency-free VCF quality control (Ti/Tv, exact Hardy-Weinberg test, sample outlier detection) validated on simulated data with planted artefacts"
 readme = "README.md"
 requires-python = ">=3.9"
+license = {text = "MIT"}
 dependencies = []
 
 [project.optional-dependencies]
